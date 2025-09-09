@@ -7,7 +7,7 @@ int main() {
 
     std::cout << "Flags: 0x" << std::hex << flags << std::endl;
 
-    if(flags == 0x206)
+    if(flags != 0x46)
         std::cout << "real PC !";
     else
         std::cout << "YOU ARE IN THE MATRIX !";
